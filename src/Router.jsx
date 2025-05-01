@@ -6,6 +6,8 @@ import EpisodeDetail from './pages/EpisodeDetail.jsx';
 import Personajes from './pages/Personajes.jsx';
 import PersonajeDetail from './pages/PersonajeDetail.jsx';
 import BusquedaPersonajes from './pages/BusquedaPersonajes.jsx';
+import Favoritos from './pages/PersonajesFavoritos.jsx';
+import ExtraPage from './pages/Extra.jsx';
 
 export default function Router() {
     return (
@@ -17,6 +19,8 @@ export default function Router() {
           <Route path="/characters" element={<Personajes />} />
           <Route path="/character/:id" element={<PersonajeDetail />} />
           <Route path="/busqueda" element={<BusquedaPersonajes />} />
+          <Route path="/favoritos" element={<Favoritos />} />
+          <Route path="/extra" element={<ExtraPage />} />
         </Routes>
       </>
     );

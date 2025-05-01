@@ -1,0 +1,75 @@
+.personaje-detail {
+    text-align: center;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .personaje-title {
+    color: #444;
+    font-size: 2.8rem;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .subtitle {
+    color: #444;
+    margin-top: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+  
+  .imagen-like-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .personaje-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .like-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #a100cc;
+    background-color: white;
+    color: #a100cc;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .like-btn:hover {
+    background-color: #a100cc;
+    color: white;
+  }
+  
+  .episodes-title {
+    margin-top: 2rem;
+    color: #6a008f;
+  }
+  
+  .episode-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .episode-list li {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
