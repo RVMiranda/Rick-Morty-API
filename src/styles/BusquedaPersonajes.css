@@ -1,0 +1,39 @@
+.busqueda-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .formulario-busqueda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .formulario-busqueda input,
+  .formulario-busqueda select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  .formulario-busqueda button {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    background-color: #a100cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .grid-busqueda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+  }
+  
